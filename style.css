@@ -1,0 +1,624 @@
+/* Configuração geral e capa de fundo */
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif
+}
+
+/*//////////////////////////////*/
+/* Personalização do cabeçalho */
+/*////////////////////////////*/
+
+.faixa { 
+    background-color: gray;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: white;
+}
+
+header {
+    margin: 20px 300px;
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    align-items: center;
+}
+  
+.Logo{
+    width: 113px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.Logo:hover{
+    transform: scale(1.3);
+}
+
+.Logo img{
+    width: 110px;
+}
+
+nav {
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 20px;
+}
+  
+nav ul li a {
+    display: block;
+    background-color: transparent;
+    color: black;
+    border-radius: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: large;
+}
+  
+nav ul li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.searchbar {
+    margin: 20px;
+}
+
+.searchbar form{
+    display: flex;
+    align-items: center;
+}
+
+.searchbar input[type=text] {
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    border-radius: 25px;
+    border: 1px solid #0e0d0d;
+}
+  
+.searchbar img {
+    width: 40px;
+    height: 40px;
+    transition: 0.4s;
+}
+
+.searchbar img:hover{
+    transform: scale(1.3);
+}
+    
+.itens{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    width: 90px;
+    height: 55px;
+    column-gap: 20px;
+}
+
+.itens img:hover{
+    transform: scale(1.6);
+}
+
+.itens img{
+    transition: 0.3s;
+    width: 30px;
+    height: 30px;
+}
+
+  /*/////////////////////////////////////*/
+ /* Personalização dos itens principais */
+/*/////////////////////////////////////*/
+
+main{
+    margin: 0px 300px 150px 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+main h1{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.promocoes{
+    border-radius: 70px;
+}
+
+.promocoes h2{
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+
+.banner {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img{
+    border-radius: 20px;
+    width: 1200px;
+    height: 300px;
+}
+
+.adicionadosRecentemente{
+    background-color: white;
+    padding-top: 80px;
+    border-radius: 70px;
+}
+
+.adicionadosRecentemente h2{
+    padding-bottom: 40px;
+}
+
+.roupas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 1px 9px #f0eff0;
+    border: 1px solid rgb(218, 218, 218);
+    transition: 0.5s;
+    margin-bottom: 70px;
+}
+
+.roupas img{
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 15px;
+}
+
+.cards p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.cards h3{
+    margin: 0px;
+    margin-top: 45px;
+}
+
+.cards:hover{
+    transform: scale(1.07);
+}
+
+.sobre{
+    text-align: center;
+}
+
+.sobre_nos{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.mosaico{
+    margin-top: 70px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.imgLaterais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.imgLaterais img{
+    background-color: rgb(243, 241, 241) ;
+    width: 210px;
+    max-width: 100%;
+    transition: all 0.7s;
+}
+
+.imgCentral{
+    height: 505px;
+    overflow: hidden;
+}
+
+.imgCentral img{
+    background-color: rgb(243, 241, 241);
+    height: 507px;
+    transition: all 0.7s;
+}   
+
+.imgCentral img:hover{
+    transform: scale(1.3);
+}
+
+.lateral1{
+    width: auto;
+    overflow: hidden;
+}
+
+.lateral1 img:hover{
+    transform: scale(1.3);
+}
+
+.lateral2{
+    width: auto;
+    overflow: hidden;
+}
+
+.lateral2 img:hover{
+    transform: scale(1.3);
+}
+
+
+  /*//////////////////////*/
+ /*   PAGINA DE PRODUTO  */
+/*//////////////////////*/
+
+#produto .product-container {
+    display: flex;
+    justify-content: flex-start ;
+    align-items: start;
+    column-gap: 75px;
+}
+
+#produto .grid-image .carrousel img{
+    width: 100%;
+}
+
+#produto .grid-images {
+    display: flex;
+    column-gap: 70px;
+    align-items: center;
+}
+
+#produto .thumb {
+    width: 140px;
+}
+
+#produto .thumb img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#produto .main-image-container{
+    width: 100%;
+    box-shadow: 11px 3px 20px #f0eff0;
+}
+
+#produto .main-image-container img{
+    width: 600px;
+    object-fit: contain;
+}
+
+#produto{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.thumb img{
+    background-color: whitesmoke;
+}
+
+  /*//////////////////////*/
+ /*  PAGINA DE CARRINHO  */
+/*//////////////////////*/
+
+#titulo-carrinho{
+    padding-bottom: 0px;
+}
+
+.carrinhoPag {
+    width: 300px;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.itens-carrinho {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    column-gap: 42px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nome-item {
+    flex-grow: 1;
+}
+
+.conjunto1{
+    display: flex;
+}
+
+.conjunto1 img{
+    width: 50%;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.finalizar-compra {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.finalizar-compra:hover {
+    background-color: #0056b3;
+}
+
+.remover {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remover:hover {
+    background-color: #c82333;
+}
+
+.itensCarrinho{
+    display: flex;
+    border: solid 1px;
+    justify-content: space-around;
+    margin-top: 45px;
+    border-radius: 1em;
+}
+
+.secoes1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 400px;
+}
+
+.secoes2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: solid 1px;
+    width: 500px;
+}
+
+#EspecificacaoProduto{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+#fotoItem img{
+    width: 80px;
+}
+
+.quantia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nomeProduto{
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 1px;
+}
+
+.quantia input{
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button 
+    {
+    -webkit-appearance: none;
+    }
+}
+
+
+/*//////////////////////////*/
+ /* Personalização do forms */
+/*//////////////////////////*/
+
+.corpoForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formu {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 11px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.formu h1, .formu h2{
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.metodo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.metodo input[type="radio"] + label {
+    margin-right: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+  /*//////////////////////////*/
+ /* Personalização do Sobre  */
+/*//////////////////////////*/
+
+.sobre_nos{
+    text-align: center;
+}
+
+.sobre_nos p{
+    text-align: start;
+}
+
+.sobre_nos h2{
+    margin-top: 60px;
+}
+
+.sobre_nos h3{
+    margin-top: 40px;
+}
+
+  /*//////////////////////////*/
+ /* Personalização do rodapé */
+/*//////////////////////////*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h2{
+    color: white;
+}
+
+.rodape {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contato p {
+    margin-bottom: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.icone {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.icone img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.icone:hover{
+    color: lightcoral;
+}
+
+.footer-content p {
+    margin-top: 20px;
+}
+
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+ 
+body::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+ 
+body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

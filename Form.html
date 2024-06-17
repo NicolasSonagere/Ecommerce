@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erica fantasias - Sobre Nós </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="faixa">
+        Fantasias e cosplays feitos a mão, com carinho e muita qualidade!
+    </div>
+    <header>
+        <a class="Logo" href="mainPage.html"><img src="images/ERICA ATELIE.png" alt="logo"></a>
+        
+        <nav>
+            <ul>
+              <li><a href="produtos.html">Heróis</a></li>
+              <li><a href="produtos.html">Animes</a></li>
+              <li><a href="produtos.html">Halloween</a></li>
+              <li><a href="produtos.html">Profissões</a></li>
+            </ul>
+        </nav>
+
+        <div class="searchbar">
+            <form action="#">
+              <input type="text" placeholder="Buscar..." name="Buscar">
+              <img src="images/lupa.png" alt="" type="submit">
+            </form>
+        </div>
+        
+        <div class="itens">
+            <a href="#" class="favoritos"><img src="images/favoritos.png" alt="favoritos"></a>
+            <a href="carrinho.html" class="carrinho"><img src="images/carrinho.png" alt="carrinho"></a> 
+        </div>
+
+    </header>
+
+    <main>
+        <div class="corpoForm">
+            <h1>Preencha os dados para finalizar a compra</h1>
+            <form class="formu" action="/submit" method="post">
+                <h2>Dados pessoais</h2>
+                <div class="nome">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="Email">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="CPF">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" required>
+                </div>
+
+                <div class="telefone">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" required>
+                </div>          
+
+                <h2>Dados para entrega</h2>
+                <label for="cep">CEP:</label> 
+                <input type="text" name="CEP"> <br>
+                <label for="estado">Estado:</label>
+                <select name="estado" id="estado">
+                    <option value=""></option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select> <br>
+                <label for="Cidade">Cidade:</label>
+                <select name="cidade" id="cidade">
+                    <option value=""></option>
+                </select> <br>
+                <label for="Bairro">Bairro:</label>
+                <input type="text" name="estado" id="estado">
+
+                <h2>Metodo de pagamento</h2>
+                <div class="metodo">
+                    <input type="radio" name="pagamento" id="credito">
+                    <label for="pagamento">Crédito</label>
+                    <input type="radio" name="pagamento" id="debito">
+                    <label for="pagamento">Debito</label>
+                    <input type="radio" name="pagamento" id="pix">
+                    <label for="pagamento">Pix</label>
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="rodape">
+            <div class="contato">
+                <p>Contatos:</p>
+                <p>Numero: +55 (19) 99999-9999</p>
+                <p>Email: erica.atelie@gmail.com</p>
+                <br>
+                <a href="Sobre.html"><h2>Sobre nós</h2></a>
+            </div>
+            <div class="redes-sociais">
+                <a href="#" class="icone"><img src="images/whatsapp.png" alt="WhatsApp">Contato WhatsApp</a>
+                <a href="#" class="icone"><img src="images/instagram.svg" alt="Instagram">Visite-nos no Instagram</a>
+                <a href="#" class="icone"><img src="images/face.svg" alt="Facebook">Visite-nos no Facebook</a>
+            </div>
+        </div>
+        <p>&copy; 2024 - Erica Souza</p>
+    </footer>
+</body>
+</html>
